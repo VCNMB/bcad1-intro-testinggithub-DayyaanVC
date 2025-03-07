@@ -11,6 +11,13 @@ package com.mycompany.prjclasses;
 public class PrjClasses {
 
     public static void main(String[] args) {
-       System.out.println("Hello World i just did gitHub and enjoy this alot ");
+       
+        newClass nc = new newClass(); //Object Orientated Class. (Second class open) / creating an object of new class
+        
+    
+        
+        nc.helloClass();//have to use variable name to communicate with the class
+        
+        System.out.println(nc.strSecondClassVariable); //Output Variable from second class
     }
 }
