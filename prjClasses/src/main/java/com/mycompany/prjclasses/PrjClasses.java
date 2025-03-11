@@ -18,6 +18,6 @@ public class PrjClasses {
         
         nc.helloClass();//have to use variable name to communicate with the class
         
-        System.out.println(nc.strSecondClassVariable); //Output Variable from second class
+        System.out.println(nc.strSecondClassVariable); //Output Variable from second class /////
     }
 }
